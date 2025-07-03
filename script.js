@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             canFlip = false;
             card.classList.add('flipped');
+            toggleZoom(card);
             selectedCards.push(card);
             playSound(flipSound);
             setTimeout(() => {
