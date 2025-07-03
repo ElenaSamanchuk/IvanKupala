@@ -210,4 +210,9 @@ button:active {
         padding: 2vw 5vw;
         border-radius: 1vw;
     }
+    .card.zoomed {
+        scale: 3;
+        left: 25%;
+        top: 30%;
+    }
 }
