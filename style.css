@@ -206,6 +206,7 @@ button:active {
     button {
         padding: 5vw 15vw;
         font-size: 4vw;
+        border-radius: 2vw;
     }
     .message {
         font-size: 3vw;
