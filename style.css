@@ -128,7 +128,10 @@ button:active {
     background-image: url('./img/cover.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    border-radius: 1vw;
+    object-fit: contain;
+    filter: drop-shadow(0 0 1vw rgba(0, 0, 0, .3));
 }
 
 @keyframes deal {
