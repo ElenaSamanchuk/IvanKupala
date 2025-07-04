@@ -156,6 +156,16 @@ button:active {
     transform: translate(50%, 50%);
     transition: all .4s ease;
 }
+
+.card.zoomed .card-face {
+    box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+}
+
+.card.zoomed img {
+    border-radius: 1vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, .3);
+    object-fit: cover;
+}
        
 .card-img {
     box-shadow: 0 0 0 rgba(0, 0, 0, .3);
