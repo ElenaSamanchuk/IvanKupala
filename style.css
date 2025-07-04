@@ -183,6 +183,9 @@ button:active {
 }
 
 @media (max-width: 480px) {
+    body {
+        background-color: #512f7f;
+    }
     main {
         padding: 4vw;
     }
